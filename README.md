@@ -85,22 +85,22 @@ npm install
 npm start
 ## 🧠 How It Works
 
-1. 🎬 **User starts recording** → `MediaRecorder` captures webcam stream.  
-2. ⚡ **Each video chunk** is streamed to the backend via **Socket.IO**.  
-3. 💾 **Backend writes chunks** to a temporary `.webm` file.  
-4. 🟥 **On stop**, the file is finalized and stored in the `/uploads` directory.  
-5. 🎞️ **User can view or download** from the **Saved Videos** page.  
-6. 🔄 **FFmpeg converts** the `.webm` file to `.mp4` for easy playback.  
+1. 🎬 User starts recording → `MediaRecorder` captures webcam stream.  
+2. ⚡ Each video chunk is streamed to the backend via **Socket.IO**.  
+3. 💾 Backend writes chunks to a temporary `.webm` file.  
+4. 🟥 On stop, the file is finalized and stored in the `/uploads` directory.  
+5. 🎞️ User can view or download** from the **Saved Videos** page.  
+6. 🔄 FFmpeg converts the `.webm` file to `.mp4` for easy playback.  
 
 ---
 
 ## 🧩 Future Enhancements
 
-- ☁️ **Store videos in AWS S3 or Cloudinary**  
-- 🔐 **Add user authentication**  
-- 🔄 **Enable real-time playback streaming**  
-- 📈 **Add progress bar & video compression**  
-- 🧩 **Integrate Kafka or RabbitMQ for scalable upload handling**  
+- ☁️ Store videos in AWS S3 or Cloudinary  
+- 🔐 Add user authentication 
+- 🔄 Enable real-time playback streaming
+- 📈 Add progress bar & video compression 
+- 🧩 Integrate Kafka or RabbitMQ for scalable upload handling
  
 
 

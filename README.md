@@ -49,3 +49,30 @@ Built for performance, simplicity, and scalability — perfect for real-time med
 
 ## 🏗️ Project Structure
 
+video_stream_store_app/
+├── client/ # Frontend (React + TypeScript)
+│ ├── src/
+│ │ ├── App.tsx # Camera Recorder logic
+│ │ └── pages/
+│ │ └── SavedVideos.tsx # Saved video listing
+│ ├── package.json
+│ └── tsconfig.json
+│
+├── server/ # Backend (Express + Socket.IO)
+│ ├── src/
+│ │ ├── server.ts # Main server logic
+│ │ └── models/
+│ │ └── Video.ts # Mongoose schema
+│ └── uploads/ # Recorded .webm files
+│
+├── package.json
+└── README.md
+
+## ⚙️ Setup & Run Locally
+
+### 1️⃣ Clone this repo
+```bash
+git clone https://github.com/ImanSamantaCoder/video_stream_store_app.git
+cd video_stream_store_app
+
+

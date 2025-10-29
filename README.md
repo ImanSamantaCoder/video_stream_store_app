@@ -97,7 +97,7 @@ User can view or download from the “Saved Videos” page.
 
 FFmpeg converts the .webm file to .mp4 for easy playback.
 
-🧩 Future Enhancements
+** 🧩 Future Enhancements **
 
 ☁️ Store videos in AWS S3 or Cloudinary
 

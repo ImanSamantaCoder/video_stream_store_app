@@ -74,5 +74,15 @@ video_stream_store_app/
 ```bash
 git clone https://github.com/ImanSamantaCoder/video_stream_store_app.git
 cd video_stream_store_app
+2️⃣ Setup the backend
+cd server
+npm install
+Run:
+npm run dev
+3️⃣ Setup the frontend
+cd ../client
+npm install
+npm start
+
 
 

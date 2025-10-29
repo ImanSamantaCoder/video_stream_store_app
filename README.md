@@ -50,7 +50,7 @@ Built for performance, simplicity, and scalability — perfect for real-time med
 🖼️ **Visual Representation:**
 
 <p align="center">
-  <img src="https://github.com/ImanSamantaCoder/video_stream_store_app/assets/YOUR_IMAGE_ID/A_flowchart_infographic_displays_the_directory_str.png" alt="Project Structure Diagram" width="700">
+  <img src="https://github.com/ImanSamantaCoder/video_stream_store_app/assets/image.png" alt="Project Structure Diagram" width="700">
 </p>
 
 
